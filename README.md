@@ -1,10 +1,6 @@
 
 # Source Code of PKDD21 Paper Multi-View Self-Supervised Heterogeneous Graph Embedding
 
-## Important Notes
-- Due to the file limmit (<10Mb), we can only provide one example dataset.
-- The code will be released upon acception.
-
 ## Requirements
 - Pytorch >=1.7 (Tested on 1.7 and 1.8)
 - DGL >= 0.5.3 (Tested on 0.5.3 and 0.6.0)
