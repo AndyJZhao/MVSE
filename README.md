@@ -1,5 +1,5 @@
 
-# Source Code of PKDD Submission 408
+# Source Code of PKDD21 Paper Multi-View Self-Supervised Heterogeneous Graph Embedding
 
 ## Important Notes
 - Due to the file limmit (<10Mb), we can only provide one example dataset.
@@ -90,16 +90,6 @@ Train finished, results:{'loss': 0.3328230082988739, 'test_maf1': 0.900241672992
 {'parameters': {'_interested_conf_list': ['model', 'mode', 'dataset', 'train_percentage', 'p_epoch', 'f_epoch', 'batch_size', 'ge_layer', 'aug_mode', 'cl_mode', 'skip_pretrain', 'walk_hop', 'eval_freq', 'train_mode', 'print_freq', 'seed', 'ge_mode', 'nce_k', 'num_copies', 'num_samples'], 'alpha': 0.999, 'aug_mode': 'MPRW', 'batch_size': 128, 'beta1': 0.9, 'beta2': 0.999, 'birth_time': '10_31-21_14_15', 'cl_mode': 'WL_0_0_1', 'clip_norm': 1.0, 'dataset': 'dblp', 'exp_name': 'default', 'f_epoch': 50, 'ge_layer': 2, 'ge_mode': 'mp_spec', 'gnn_model': 'gin', 'lr': 0.005, 'model': 'MVSE', 'mp_list': ['apa', 'apcpa'], 'mv_hidden_size': 48, 'mv_map_layer': 2, 'nce_k': 4096, 'nce_t': 0.07, 'node_emb_dim': 32, 'norm': True, 'num_samples': 2000, 'num_workers': 0, 'p_epoch': 400, 'positional_embedding_size': 32, 'restart_prob': 0.2, 'seed': 1, 'subg_emb_dim': 64, 'subgraph_size': 128, 'train_mode': 'moco', 'walk_hop': 2, 'walk_num': 3, 'weight_decay': 1e-05}, 'res': {'loss': 0.3328230082988739, 'test_maf1': 0.9002416729927063, 'test_mif1': 0.90625}}
 Finished running _train at 10-31 21:15:04, running time = 48.94s.
 Finished running train_MVSE at 10-31 21:15:04, running time = 49.01s.
-
-Process finished with exit code 0
-
-
-
-
-Train finished, results:{'loss': 0.3020183742046356, 'test_maf1': 0.9146305322647095, 'test_mif1': 0.9199694991111755}
-{'parameters': {'_interested_conf_list': ['model', 'mode', 'dataset', 'train_percentage', 'p_epoch', 'f_epoch', 'batch_size', 'ge_layer', 'aug_mode', 'cl_mode', 'skip_pretrain', 'walk_hop', 'eval_freq', 'train_mode', 'print_freq', 'seed', 'ge_mode', 'nce_k', 'num_copies', 'num_samples'], 'alpha': 0.999, 'aug_mode': 'MPRW', 'batch_size': 128, 'beta1': 0.9, 'beta2': 0.999, 'birth_time': '04_03-18_30_54', 'cl_mode': 'WL_0_0_1', 'clip_norm': 1.0, 'dataset': 'dblp', 'exp_name': 'default', 'f_epoch': 50, 'ge_layer': 2, 'ge_mode': 'mp_spec', 'gnn_model': 'gin', 'lr': 0.005, 'model': 'MVSE', 'mp_list': ['apa', 'apcpa'], 'mv_hidden_size': 48, 'mv_map_layer': 2, 'nce_k': 4096, 'nce_t': 0.07, 'node_emb_dim': 32, 'norm': True, 'num_samples': 2000, 'num_workers': 0, 'p_epoch': 400, 'positional_embedding_size': 32, 'restart_prob': 0.2, 'seed': 1, 'subg_emb_dim': 64, 'subgraph_size': 128, 'train_mode': 'moco', 'walk_hop': 2, 'walk_num': 3, 'weight_decay': 1e-05}, 'res': {'loss': 0.3020183742046356, 'test_maf1': 0.9146305322647095, 'test_mif1': 0.9199694991111755}}
-Finished running _train at 04-01 18:31:54, running time = 1.00min.
-Finished running train_MVSE at 04-01 18:31:54, running time = 1.00min.
 
 Process finished with exit code 0
 ```
